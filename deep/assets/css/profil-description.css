@@ -1,0 +1,215 @@
+@import url('https://fonts.cdnfonts.com/css/open-sauce-one');
+
+body,
+html {
+  font-family: 'Open Sauce One', sans-serif;
+  background-color: #F7F9FB;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-start {
+  display: flex;
+  align-items: flex-start;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.flex-spaced {
+  justify-content: space-between;
+}
+
+.flex-end {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.spaced-around {
+  justify-content: space-around;
+}
+
+.spaced-evenly {
+  justify-content: space-evenly;
+}
+
+.none {
+  display: none;
+}
+
+
+.div_categories {
+
+  height: 70px;
+  background-color: #FEFEEC;
+  border-radius: 12px;
+  margin-top: 15px;
+  position: relative;
+  z-index: 9;
+}
+
+.div_more_info_ctagories {
+  background-color: #FEFEEC;
+ 
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+#p_categorie {
+  width: 75%;
+}
+
+.div_all_categories {
+  height: auto;
+}
+
+.p_text {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.div_nom {
+  border-radius: 15px;
+  z-index: 2;
+  margin-top: -65px;
+}
+
+#p_nom_perso {
+  font-size: 27px;
+  margin: 0;
+  padding-top: 25px;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+#p_slogan {
+  font-size: 15px;
+  margin: 0;
+  padding-bottom: 25px;
+  color: white;
+  font-style: italic;
+}
+
+#icon_color {
+  font-size: 35px;
+  color: white;
+}
+
+.div_info_choose {
+  padding-right: 80px;
+}
+
+.div_icon {
+ margin:0px 8px;
+}
+
+.div_icon_profil{
+  margin: 0px 24px;
+}
+
+#img_personalite {
+  width: 100%;
+}
+
+
+.computer_none {
+  display: none !important;
+}
+
+
+
+#id_master_mots {
+  color: #EF7E33;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.div_all_card_categories {
+  height: 500px;
+  margin: 4%;
+}
+
+.div_card_and_categories {
+  margin: 4%;
+  margin-top: 0px;
+}
+
+.categories {
+  
+}
+.div_return{
+  margin-top: 166px;
+  margin-bottom: 0px;
+}
+
+
+.div_phone_header {
+  display: none;
+}
+
+.motsclefsProfil{
+  color:white;
+  margin:4px;
+  border-radius: 8px;
+  padding:2px 8px;
+}
+
+.div_all_card_categories_profil{
+  width:400px; 
+}
+
+.div_text_profil{
+  width: 50%;
+}
+
+
+@media screen and (max-width:1144px) {
+
+ 
+
+  .div_card_and_categories{
+    flex-direction: column !important;
+  }
+  .div_all_card_categories_profil{ 
+    width:100%; 
+  }
+
+  .div_text_profil{
+    width: 100%;
+  }
+
+  }
+

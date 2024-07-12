@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "Mikado Black";
+    src: url("Mikado_Black.otf");
+}
+
+body {
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(36, 61, 206);
+    color: rgb(239, 126, 51);
+   
+}
+
+#myChart {
+    width: 200px;
+}
+
+.div_mid {
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Mikado Black', serif;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.img_canape {
+    height: 70px;
+    transform: rotate(-20deg);
+    margin-left: 4vw;
+    margin-top: 15px;
+
+}
+
+.div_body {
+    padding: 0px 10vw;
+}
+
+.div_profil {
+    margin-bottom: 150px;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(36, 61, 206);
+    color: rgb(239, 126, 51);
+    font-size: 16pt;
+    font-family: 'Lato', sans-serif;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.flex-right {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.div_btn_profil {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.espace_intro {
+    width: 60vw;
+
+}
+
+.btn_profil {
+    padding: 10px 10px;
+    width: 250px;
+    border: 1px solid #DFDFDF;
+    background-color: rgb(36, 61, 206);
+    background-color: rgb(239, 126, 51);
+    color: white;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 3px 3px 7px #DFDFDF;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+.btn_share {
+    /*  background-color: rgb(0,150,113);*/
+
+}
+
+.div_column_mid {
+    height: auto;
+}
+
+#btn_shares {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.none {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.div_btn_share {
+    margin-top: 30px;
+    margin-bottom: 96px;
+    ;
+
+}
+
+.btn_telecharger {
+    width: 200px;
+    background-color: rgb(255, 45, 38);
+    text-align: center;
+    margin-top: -20px;
+}
+
+.h2_valeurs {
+    font-size: 23px;
+}
+
+.btn_test {
+    margin-top: 30px;
+    width: 100px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    padding: 0;
+}

@@ -1,0 +1,34 @@
+html, body,.div_more_info_ctagories, .div_categories{
+    background-color: white !important;
+}
+
+.print_none{
+    display: none;
+}
+
+.div_all_desc{
+    page-break-before: always;
+}
+
+.print_ok{
+    display: block;
+}
+
+.div_more_info_ctagories{
+    width:100%;
+    font-size: 12px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.div_mots_clefs{
+width: 100%;
+}
+.div_all_categories{
+    page-break-inside: avoid;
+}
+.div_nom{
+    height: 48px;
+}
+.div_img_categories{
+    height:80px;
+}

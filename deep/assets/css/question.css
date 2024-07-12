@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "Mikado Black";
+    src: url("Mikado_Black.otf");
+  }
+  
+  @font-face {
+    font-family: "Mikado Medium";
+    src: url("Mikado_Medium.otf");
+  }
+  
+  
+  
+  
+  body{
+      display: flex;
+      justify-content: center;
+      padding:0;
+      margin:0;
+      width:100vw;
+     /* font-family: "Mikado Black", serif;*/
+      font-family: 'Caveat', cursive;
+  font-family: 'Nunito', sans-serif;
+   
+     
+      
+  }
+  .div_body{
+      width:100vw;
+      color:rgb(36,61,206);
+     color: rgb(239,126,51);
+     
+  }
+  
+  input{display: none;}
+  button{display: none;}
+  .POPUP{
+      position: fixed;
+      width: 100vw;
+      height:100vh;
+      background-color: rgba(255,255,255,0.65);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .none{display: none;}
+  
+  .card_popup{
+      padding:50px 50px;
+      border:1px solid #DFDFDF;
+      background-color: rgba(255,255,255,0.9);
+      
+  }
+  
+  .img_gif{
+      width:200px;
+  }
+  .p_popup{
+      text-align: center;
+      width: 230px;
+      font-size: 23px;
+      
+      overflow-x: visible;
+  }
+  
+  .b_popup{
+      font-size: 28px;
+      font-weight: 900;
+  }
+  #p_consigne{color:rgb(255,45,38);
+              font-size: 13pt;
+              width:200px;}
+  
+  .btn_popup{
+      width:230px;
+      padding:10px 0px;
+      text-align: center;
+      border:1px solid #DFDFDF;
+      box-shadow: 7px 7px 7px #DFDFDF;
+      cursor: pointer;
+      background-color: rgb(0,150,113);
+      background-color: rgb(239,126,51);
+      color:white;
+      font-family: 'Lato', sans-serif;
+  }
+  .nav{
+      width:100vw;
+      height:40px;
+      background-color: aliceblue;
+      margin-bottom: 50px;
+      display: none;
+      
+  }
+  
+  h2{
+      text-align: center;
+      /*font-family: "Mikado Black", serif;*/
+      font-family: 'Lato', sans-serif;
+      margin-top: 60px;
+      text-transform: uppercase;
+      font-size: 23px;
+  }
+  
+  .flex-row{display: flex;
+      flex-direction: row;}
+  
+      .flex-col{display: flex;
+              flex-direction: column;}
+  
+              .none{
+                  display: none;
+              }
+  
+  .div_all_img{
+              width:80vw;
+              padding-left:10vw;
+              }
+  
+  .flex-wrap{flex-wrap: wrap;}
+  
+  
+  
+      .img_question{
+          width:20vw;
+          padding:5px 5px;
+          height:13.5vw;
+          box-shadow: 7px 7px 12px #DFDFDF;
+          box-sizing: border-box;
+          cursor: pointer;
+      
+      }
+  
+      .img_question:hover{
+         
+      }
+  
+      .p_response{
+         /* font-family: "Mikado Medium", serif;*/
+         font-family: 'Caveat', cursive;
+  font-family: 'Nunito', sans-serif;
+          text-align: center;
+          font-size: 22px;
+          width: 16vw;
+          margin-left: 2vw;
+          text-align: center;
+      }
+  
+      .p_response>b{
+          font-size: 24px;
+       }
+  
+      .img_selected{
+          
+          border:5px solid rgb(36,61,206);
+          border: 5px solid rgb(239,126,51);
+         
+      }
+  
+      .div_barre_fleche{
+          width:80vw;
+      
+      }
+      .div_fleche{
+          
+      }
+      .div_space_fleche{
+          width:100%;
+      }
+  
+      #fleche_next{
+          cursor: pointer;
+      }
+  
+  #fleche_next_red{height:90%;}
+    @keyframes loaded{
+                       from{opacity: 1;
+                              }
+                       to{
+                          opacity: 0;
+                           
+                       }
+                   }
+                   
+                   .charge{
+                       animation-name: loaded;
+                       animation-duration: 0.5s;
+                       animation-fill-mode: forwards;
+                   }
+               
+  
+  b{font-size: 14px;}
+  
+  @media screen and (min-width: 200px) and (max-width: 640px) {
+      .img_question{width:40vw;
+                  height: 30vw;}
+      
+      .p_response{width: 40vw;}
+  }
+    
